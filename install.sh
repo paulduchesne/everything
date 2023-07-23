@@ -44,4 +44,6 @@ EOF
 chmod +x ~/autostart.sh
 
 echo "@reboot ~/autostart.sh" >> ~/cron.txt
-crontab cron.txt
+crontab ~/cron.txt
+
+sudo reboot
