@@ -7,7 +7,7 @@ sudo apt-get -y install libsamplerate0-dev libsndfile1-dev libasound2-dev libava
 
 # install jack
 
-git clone https://github.com/jackaudio/jack2.git --depth 1 
+cd && git clone https://github.com/jackaudio/jack2.git --depth 1 
 cd jack2  
 ./waf configure --alsa --libdir=/usr/lib/arm-linux-gnueabihf/  
 ./waf build  
