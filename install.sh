@@ -38,7 +38,7 @@ cat >~/autostart.sh <<EOF
 export PATH=/usr/local/bin:$PATH
 export DISPLAY=:0.0
 sleep 10 # can be lower (5) for rpi3
-sclang ~/everything/test.scd
+sclang ~/everything/remote.scd
 EOF
 
 chmod +x ~/autostart.sh
