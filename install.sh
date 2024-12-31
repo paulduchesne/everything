@@ -55,4 +55,4 @@ sudo ldconfig
 
 # clone repo
 
-git clone https://github.com/paulduchesne/everything.git
+cd && git clone https://github.com/paulduchesne/everything.git
